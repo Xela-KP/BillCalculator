@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBBEBBED29B9472E0006506D /* ALEXANDER_BillCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBEBBEC29B9472E0006506D /* ALEXANDER_BillCalcApp.swift */; };
+		BBBEBBEF29B9472E0006506D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBEBBEE29B9472E0006506D /* ContentView.swift */; };
+		BBBEBBF129B947300006506D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBEBBF029B947300006506D /* Assets.xcassets */; };
+		BBBEBBF429B947300006506D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBEBBF329B947300006506D /* Preview Assets.xcassets */; };
+		BBBEBBFE29B947300006506D /* ALEXANDER_BillCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBEBBFD29B947300006506D /* ALEXANDER_BillCalcTests.swift */; };
+		BBBEBC0829B947300006506D /* ALEXANDER_BillCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBEBC0729B947300006506D /* ALEXANDER_BillCalcUITests.swift */; };
+		BBBEBC0A29B947300006506D /* ALEXANDER_BillCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBEBC0929B947300006506D /* ALEXANDER_BillCalcUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBBEBBFA29B947300006506D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBBEBBE129B9472E0006506D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBBEBBE829B9472E0006506D;
+			remoteInfo = ALEXANDER_BillCalc;
+		};
+		BBBEBC0429B947300006506D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBBEBBE129B9472E0006506D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBBEBBE829B9472E0006506D;
+			remoteInfo = ALEXANDER_BillCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBBEBBE929B9472E0006506D /* ALEXANDER_BillCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALEXANDER_BillCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBEBBEC29B9472E0006506D /* ALEXANDER_BillCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALEXANDER_BillCalcApp.swift; sourceTree = "<group>"; };
+		BBBEBBEE29B9472E0006506D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBBEBBF029B947300006506D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBBEBBF329B947300006506D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBBEBBF929B947300006506D /* ALEXANDER_BillCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALEXANDER_BillCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBEBBFD29B947300006506D /* ALEXANDER_BillCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALEXANDER_BillCalcTests.swift; sourceTree = "<group>"; };
+		BBBEBC0329B947300006506D /* ALEXANDER_BillCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALEXANDER_BillCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBEBC0729B947300006506D /* ALEXANDER_BillCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALEXANDER_BillCalcUITests.swift; sourceTree = "<group>"; };
+		BBBEBC0929B947300006506D /* ALEXANDER_BillCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALEXANDER_BillCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBBEBBE629B9472E0006506D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBEBBF629B947300006506D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBEBC0029B947300006506D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBBEBBE029B9472E0006506D = {
+			isa = PBXGroup;
+			children = (
+				BBBEBBEB29B9472E0006506D /* ALEXANDER_BillCalc */,
+				BBBEBBFC29B947300006506D /* ALEXANDER_BillCalcTests */,
+				BBBEBC0629B947300006506D /* ALEXANDER_BillCalcUITests */,
+				BBBEBBEA29B9472E0006506D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBBEBBEA29B9472E0006506D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBBEBBE929B9472E0006506D /* ALEXANDER_BillCalc.app */,
+				BBBEBBF929B947300006506D /* ALEXANDER_BillCalcTests.xctest */,
+				BBBEBC0329B947300006506D /* ALEXANDER_BillCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBBEBBEB29B9472E0006506D /* ALEXANDER_BillCalc */ = {
+			isa = PBXGroup;
+			children = (
+				BBBEBBEC29B9472E0006506D /* ALEXANDER_BillCalcApp.swift */,
+				BBBEBBEE29B9472E0006506D /* ContentView.swift */,
+				BBBEBBF029B947300006506D /* Assets.xcassets */,
+				BBBEBBF229B947300006506D /* Preview Content */,
+			);
+			path = ALEXANDER_BillCalc;
+			sourceTree = "<group>";
+		};
+		BBBEBBF229B947300006506D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBBEBBF329B947300006506D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBBEBBFC29B947300006506D /* ALEXANDER_BillCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBBEBBFD29B947300006506D /* ALEXANDER_BillCalcTests.swift */,
+			);
+			path = ALEXANDER_BillCalcTests;
+			sourceTree = "<group>";
+		};
+		BBBEBC0629B947300006506D /* ALEXANDER_BillCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBBEBC0729B947300006506D /* ALEXANDER_BillCalcUITests.swift */,
+				BBBEBC0929B947300006506D /* ALEXANDER_BillCalcUITestsLaunchTests.swift */,
+			);
+			path = ALEXANDER_BillCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBBEBBE829B9472E0006506D /* ALEXANDER_BillCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBEBC0D29B947300006506D /* Build configuration list for PBXNativeTarget "ALEXANDER_BillCalc" */;
+			buildPhases = (
+				BBBEBBE529B9472E0006506D /* Sources */,
+				BBBEBBE629B9472E0006506D /* Frameworks */,
+				BBBEBBE729B9472E0006506D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALEXANDER_BillCalc;
+			productName = ALEXANDER_BillCalc;
+			productReference = BBBEBBE929B9472E0006506D /* ALEXANDER_BillCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBBEBBF829B947300006506D /* ALEXANDER_BillCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBEBC1029B947300006506D /* Build configuration list for PBXNativeTarget "ALEXANDER_BillCalcTests" */;
+			buildPhases = (
+				BBBEBBF529B947300006506D /* Sources */,
+				BBBEBBF629B947300006506D /* Frameworks */,
+				BBBEBBF729B947300006506D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBBEBBFB29B947300006506D /* PBXTargetDependency */,
+			);
+			name = ALEXANDER_BillCalcTests;
+			productName = ALEXANDER_BillCalcTests;
+			productReference = BBBEBBF929B947300006506D /* ALEXANDER_BillCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBBEBC0229B947300006506D /* ALEXANDER_BillCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBEBC1329B947300006506D /* Build configuration list for PBXNativeTarget "ALEXANDER_BillCalcUITests" */;
+			buildPhases = (
+				BBBEBBFF29B947300006506D /* Sources */,
+				BBBEBC0029B947300006506D /* Frameworks */,
+				BBBEBC0129B947300006506D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBBEBC0529B947300006506D /* PBXTargetDependency */,
+			);
+			name = ALEXANDER_BillCalcUITests;
+			productName = ALEXANDER_BillCalcUITests;
+			productReference = BBBEBC0329B947300006506D /* ALEXANDER_BillCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBBEBBE129B9472E0006506D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BBBEBBE829B9472E0006506D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BBBEBBF829B947300006506D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BBBEBBE829B9472E0006506D;
+					};
+					BBBEBC0229B947300006506D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BBBEBBE829B9472E0006506D;
+					};
+				};
+			};
+			buildConfigurationList = BBBEBBE429B9472E0006506D /* Build configuration list for PBXProject "ALEXANDER_BillCalc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBBEBBE029B9472E0006506D;
+			productRefGroup = BBBEBBEA29B9472E0006506D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBBEBBE829B9472E0006506D /* ALEXANDER_BillCalc */,
+				BBBEBBF829B947300006506D /* ALEXANDER_BillCalcTests */,
+				BBBEBC0229B947300006506D /* ALEXANDER_BillCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBBEBBE729B9472E0006506D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBEBBF429B947300006506D /* Preview Assets.xcassets in Resources */,
+				BBBEBBF129B947300006506D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBEBBF729B947300006506D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBEBC0129B947300006506D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBBEBBE529B9472E0006506D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBEBBEF29B9472E0006506D /* ContentView.swift in Sources */,
+				BBBEBBED29B9472E0006506D /* ALEXANDER_BillCalcApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBEBBF529B947300006506D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBEBBFE29B947300006506D /* ALEXANDER_BillCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBEBBFF29B947300006506D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBEBC0829B947300006506D /* ALEXANDER_BillCalcUITests.swift in Sources */,
+				BBBEBC0A29B947300006506D /* ALEXANDER_BillCalcUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBBEBBFB29B947300006506D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBBEBBE829B9472E0006506D /* ALEXANDER_BillCalc */;
+			targetProxy = BBBEBBFA29B947300006506D /* PBXContainerItemProxy */;
+		};
+		BBBEBC0529B947300006506D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBBEBBE829B9472E0006506D /* ALEXANDER_BillCalc */;
+			targetProxy = BBBEBC0429B947300006506D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBBEBC0B29B947300006506D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBBEBC0C29B947300006506D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBBEBC0E29B947300006506D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALEXANDER_BillCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = 33R254233T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.INFO.ALEXANDER-BillCalc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBBEBC0F29B947300006506D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALEXANDER_BillCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = 33R254233T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.INFO.ALEXANDER-BillCalc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBBEBC1129B947300006506D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33R254233T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.INFO.ALEXANDER-BillCalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALEXANDER_BillCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALEXANDER_BillCalc";
+			};
+			name = Debug;
+		};
+		BBBEBC1229B947300006506D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33R254233T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.INFO.ALEXANDER-BillCalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALEXANDER_BillCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALEXANDER_BillCalc";
+			};
+			name = Release;
+		};
+		BBBEBC1429B947300006506D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33R254233T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.INFO.ALEXANDER-BillCalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALEXANDER_BillCalc;
+			};
+			name = Debug;
+		};
+		BBBEBC1529B947300006506D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33R254233T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.INFO.ALEXANDER-BillCalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALEXANDER_BillCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBBEBBE429B9472E0006506D /* Build configuration list for PBXProject "ALEXANDER_BillCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBEBC0B29B947300006506D /* Debug */,
+				BBBEBC0C29B947300006506D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBBEBC0D29B947300006506D /* Build configuration list for PBXNativeTarget "ALEXANDER_BillCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBEBC0E29B947300006506D /* Debug */,
+				BBBEBC0F29B947300006506D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBBEBC1029B947300006506D /* Build configuration list for PBXNativeTarget "ALEXANDER_BillCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBEBC1129B947300006506D /* Debug */,
+				BBBEBC1229B947300006506D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBBEBC1329B947300006506D /* Build configuration list for PBXNativeTarget "ALEXANDER_BillCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBEBC1429B947300006506D /* Debug */,
+				BBBEBC1529B947300006506D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBBEBBE129B9472E0006506D /* Project object */;
+}
