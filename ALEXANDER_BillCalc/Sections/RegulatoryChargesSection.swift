@@ -13,7 +13,6 @@ struct RegulatoryChargesSection: View {
         self.bill = bill
     }
     var body: some View {
-        
         Section(header: Text("Regulatory Charges")){
             Text(String(format: "HST (13%%): $%.2f", bill.HSTCost))
             Text(String(format: "Provincial Rebate (8%%): $%.2f", bill.ProvincialRebate))

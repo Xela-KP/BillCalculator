@@ -13,7 +13,8 @@ struct NetChargesSection: View {
         self.bill = bill
     }
     var body: some View {        Section(header: Text("Bill Amount")){
-            Text(String(format: "Net Bill Amount: $%.2f", bill.NetBillAmount)).foregroundColor(Color.red)
+            Text(String(format: "Net Bill Amount: $%.2f", bill.NetBillAmount))
+            .foregroundColor(Color.red)
         }
     }
 }

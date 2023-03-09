@@ -17,6 +17,7 @@ struct UsageDetailsSection: View {
             TextField("On-Peak Usage (kWh)", value: $bill.OnPeakUsage, format: .number)
             TextField("Off-Peak Usage (kWh)", value: $bill.OffPeakUsage, format: .number)
             TextField("Mid-Peak Usage (kWH)", value: $bill.MidPeakUsage, format: .number)
-        }.keyboardType(.decimalPad)
+        }
+        .keyboardType(.decimalPad)
     }
 }

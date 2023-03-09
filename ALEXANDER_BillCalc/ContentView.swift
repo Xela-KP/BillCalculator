@@ -15,10 +15,11 @@ struct ContentView: View {
                 UsageDetailsSection(bill: bill)
                 ConsumptionChargesSection(bill: bill)
                 RegulatoryChargesSection(bill: bill)
+                NetChargesSection(bill: bill)
             }
                 .navigationTitle("Alexander King Perocho")
                 .navigationBarTitleDisplayMode(.inline)
         }
-        
+        .scrollDismissesKeyboard(.immediately)
     }
 }
