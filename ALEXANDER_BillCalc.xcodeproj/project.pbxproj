@@ -14,6 +14,11 @@
 		BBBEBBFE29B947300006506D /* ALEXANDER_BillCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBEBBFD29B947300006506D /* ALEXANDER_BillCalcTests.swift */; };
 		BBBEBC0829B947300006506D /* ALEXANDER_BillCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBEBC0729B947300006506D /* ALEXANDER_BillCalcUITests.swift */; };
 		BBBEBC0A29B947300006506D /* ALEXANDER_BillCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBEBC0929B947300006506D /* ALEXANDER_BillCalcUITestsLaunchTests.swift */; };
+		BBC40D7B29BA651400DD89F6 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC40D7A29BA651400DD89F6 /* Bill.swift */; };
+		BBC40D8529BA780700DD89F6 /* UsageDetailsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC40D8429BA780700DD89F6 /* UsageDetailsSection.swift */; };
+		BBC40D8829BA789400DD89F6 /* ConsumptionChargesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC40D8729BA789400DD89F6 /* ConsumptionChargesSection.swift */; };
+		BBC40D8A29BA799A00DD89F6 /* RegulatoryChargesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC40D8929BA799A00DD89F6 /* RegulatoryChargesSection.swift */; };
+		BBC40D8E29BA7A0700DD89F6 /* NetChargesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC40D8D29BA7A0700DD89F6 /* NetChargesSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		BBBEBC0329B947300006506D /* ALEXANDER_BillCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALEXANDER_BillCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBEBC0729B947300006506D /* ALEXANDER_BillCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALEXANDER_BillCalcUITests.swift; sourceTree = "<group>"; };
 		BBBEBC0929B947300006506D /* ALEXANDER_BillCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALEXANDER_BillCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BBC40D7A29BA651400DD89F6 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		BBC40D8429BA780700DD89F6 /* UsageDetailsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageDetailsSection.swift; sourceTree = "<group>"; };
+		BBC40D8729BA789400DD89F6 /* ConsumptionChargesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionChargesSection.swift; sourceTree = "<group>"; };
+		BBC40D8929BA799A00DD89F6 /* RegulatoryChargesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegulatoryChargesSection.swift; sourceTree = "<group>"; };
+		BBC40D8D29BA7A0700DD89F6 /* NetChargesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetChargesSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,7 @@
 		BBBEBBE029B9472E0006506D = {
 			isa = PBXGroup;
 			children = (
+				BBC40D7829BA64C700DD89F6 /* Model */,
 				BBBEBBEB29B9472E0006506D /* ALEXANDER_BillCalc */,
 				BBBEBBFC29B947300006506D /* ALEXANDER_BillCalcTests */,
 				BBBEBC0629B947300006506D /* ALEXANDER_BillCalcUITests */,
@@ -94,6 +105,7 @@
 		BBBEBBEB29B9472E0006506D /* ALEXANDER_BillCalc */ = {
 			isa = PBXGroup;
 			children = (
+				BBC40D8329BA77EA00DD89F6 /* Sections */,
 				BBBEBBEC29B9472E0006506D /* ALEXANDER_BillCalcApp.swift */,
 				BBBEBBEE29B9472E0006506D /* ContentView.swift */,
 				BBBEBBF029B947300006506D /* Assets.xcassets */,
@@ -125,6 +137,25 @@
 				BBBEBC0929B947300006506D /* ALEXANDER_BillCalcUITestsLaunchTests.swift */,
 			);
 			path = ALEXANDER_BillCalcUITests;
+			sourceTree = "<group>";
+		};
+		BBC40D7829BA64C700DD89F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBC40D7A29BA651400DD89F6 /* Bill.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBC40D8329BA77EA00DD89F6 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				BBC40D8429BA780700DD89F6 /* UsageDetailsSection.swift */,
+				BBC40D8729BA789400DD89F6 /* ConsumptionChargesSection.swift */,
+				BBC40D8929BA799A00DD89F6 /* RegulatoryChargesSection.swift */,
+				BBC40D8D29BA7A0700DD89F6 /* NetChargesSection.swift */,
+			);
+			path = Sections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC40D8529BA780700DD89F6 /* UsageDetailsSection.swift in Sources */,
+				BBC40D8829BA789400DD89F6 /* ConsumptionChargesSection.swift in Sources */,
 				BBBEBBEF29B9472E0006506D /* ContentView.swift in Sources */,
+				BBC40D7B29BA651400DD89F6 /* Bill.swift in Sources */,
 				BBBEBBED29B9472E0006506D /* ALEXANDER_BillCalcApp.swift in Sources */,
+				BBC40D8E29BA7A0700DD89F6 /* NetChargesSection.swift in Sources */,
+				BBC40D8A29BA799A00DD89F6 /* RegulatoryChargesSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
